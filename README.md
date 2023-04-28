@@ -1,3 +1,3 @@
 # business-card
-Created with Reactjs
+Created by using Reactjs
 
