@@ -1,0 +1,122 @@
+.App {
+  font-family: "Inter", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  background-color: #1a1b21;
+  width: 317px;
+  height: 780px;
+  margin: 44px auto 44px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  /*overflow-y: scroll;*/
+}
+
+body {
+  background-color: #23252c;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 317px;
+  height: 367px;
+  display: block;
+}
+
+.info > h2 {
+  color: #ffffff;
+}
+
+.info > p {
+  color: #f3bf99;
+}
+
+.info > h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info > p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.btns > a > button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 115px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.linkedin--btn {
+  color: #ffffff;
+  background-color: #0077b5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn--img {
+  width: 16px;
+  height: 100%;
+  margin-right: 5px;
+}
+
+.about {
+  color: #ffffff;
+  text-align: left;
+  padding-left: 36px;
+  width: 247px;
+  height: auto;
+}
+
+.about > h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.about > p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.footer {
+  width: 317px;
+  height: 44px;
+  background-color: #161619;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > a {
+  max-width: 20px;
+  margin-right: 10px;
+}
+
+.footer-img {
+  width: 20px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 17px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
